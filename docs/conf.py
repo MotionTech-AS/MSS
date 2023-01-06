@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = "MSSSimscape"
+project = "SimscapeMSS"
 copyright = '2023, Sondre Sanden Tørdal'
 author = 'Sondre Sanden Tørdal'
 
