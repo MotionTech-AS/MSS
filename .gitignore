@@ -8,5 +8,6 @@ SIMULINK/mssWamitShipXTemplates/cache
 SIMULINK/mssWamitShipXTemplates/slprj
 
 # Simscape
+*.asv
 cache/
 build/
