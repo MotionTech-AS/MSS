@@ -13,3 +13,10 @@ addpath(genpath(pwd()));
 
 % Load supply ship
 load('supply.mat');
+
+% Add properties required by Simscape lib
+vessel = vessel2simscape(vessel);
+
+
+% 1 st order filter time constant
+tau = 10e-3;
