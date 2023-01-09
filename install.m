@@ -13,6 +13,7 @@ addpath(genpath(pwd()));
 
 % Load supply ship
 load('supply.mat');
+load('supplyABC.mat');
 
 % Add properties required by Simscape lib
 vessel = vessel2simscape(vessel);
